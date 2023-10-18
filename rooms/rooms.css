@@ -1,0 +1,17 @@
+.rooms {
+    margin-bottom: 100px;
+}
+
+.rooms__title {
+    margin-bottom: 40px;
+}
+
+.rooms img {
+    max-width: 580px;
+}
+
+.rooms__image {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}

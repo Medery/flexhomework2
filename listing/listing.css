@@ -1,0 +1,23 @@
+.listing {
+    margin-bottom: 100px;
+}
+
+.listing__img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.listing p {
+    color: #FFF;
+    text-align: center;
+    font-family: Arial;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    text-transform: uppercase;
+    width: 980px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}

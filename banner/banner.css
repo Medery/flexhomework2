@@ -1,0 +1,173 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: flex-start;
+    height: 823px;
+    position: relative;
+  }
+  
+  .banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    z-index: 1; 
+  }
+  
+  .banner__main-title {
+    text-align: center;
+    font-family: Arial;
+    font-size: 82px;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: -15px;
+  }
+  
+  .banner__sub-title {
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    padding-left: 100px; 
+  }
+  
+  .banner__main-title, .banner__sub-title {
+    margin: 0;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .banner__image{
+    position: relative;
+  }
+
+  .banner__image::before {
+    content: "";
+    display: block;
+    width: 675px; /* Ширина вашего изображения */
+    height: 762px; /* Высота вашего изображения */
+    background: url('../banner/banner-img/bannerImg.png') no-repeat center center;
+    background-size: contain; /* Это убедится, что ваше изображение будет масштабироваться правильно */
+    position: absolute;
+    top: -100px; /* Позиционирование изображения относительно элемента h2 */
+    right: -300px; 
+  }
+  
+
+  .banner__info {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    padding-top: 30px;
+    margin-bottom: 150px;
+  }
+
+  .banner__info span {
+    color: #CD06FF;
+    font-family: Arial;
+  }
+
+  .info-item {
+    text-align: center;
+  }
+
+  .info-rooms span {
+    font-size: 100px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  }
+
+  .info-equipment span {
+    font-size: 75px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    font-variant: all-small-caps;
+  }
+
+  .info-rooms p {
+    color: #FFF;
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 193px;
+  }
+
+  .info-equipment p {
+    color: #FFF;
+  text-align: center;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+    max-width: 161px;
+  }
+
+.banner__book {
+  color: #FFF;
+  font-family: Arial;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; 
+  text-transform: uppercase;
+  width: 374px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #6C0287;
+}
+
+header {
+  margin-bottom: 100px;
+}
+
+.banner .banner__down{
+margin: 0 auto;
+z-index: 3;
+}
+
+.banner__down {
+  width: 100px; 
+  height: 100px;
+  background-image: url('../img/down.svg');  
+  border: none; 
+  cursor: pointer; 
+  background-repeat: no-repeat;
+}
+
+.banner__down:hover {
+  width: 100px; 
+  height: 100px;
+  background-image: url('../img/down-hover.svg');  
+  border: none; 
+  cursor: pointer; 
+  background-repeat: no-repeat;
+}
+
+.banner__down:focus {
+  width: 100px; 
+  height: 100px;
+  background-image: url('../img/down-focus.svg');  
+  border: none; 
+  cursor: pointer; 
+  background-repeat: no-repeat;
+}
+
+.banner__down:active {
+  width: 100px; 
+  height: 100px;
+  background-image: url('../img/down-active.svg');  
+  border: none; 
+  cursor: pointer; 
+  background-repeat: no-repeat;
+}
+
